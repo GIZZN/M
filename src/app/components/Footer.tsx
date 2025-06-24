@@ -4,7 +4,6 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <div className={styles.decorativeBracket}></div>
       <div className={styles.logo}>
         <div className={styles.logoBracket}>
           <span className={styles.logoText}>M</span>

@@ -7,33 +7,6 @@
   position: relative;
 }
 
-.decorativeBracket {
-  position: absolute;
-  top: 2rem;
-  left: 4rem;
-  width: 2px;
-  height: calc(100% - 4rem);
-  background-color: #BEC5A4;
-}
-
-.decorativeBracket::before,
-.decorativeBracket::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  width: 1rem;
-  height: 2px;
-  background-color: #BEC5A4;
-}
-
-.decorativeBracket::before {
-  top: 0;
-}
-
-.decorativeBracket::after {
-  bottom: 0;
-}
-
 .footerContent {
   display: flex;
   justify-content: space-between;
